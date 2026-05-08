@@ -22,21 +22,16 @@ public partial class Plugin : BaseUnityPlugin
 }
 
 [HarmonyPatch(typeof(CutSceneManager), nameof(CutSceneManager.SetupNewCutScene))]
-public static class CutSceneManager_PlayCutSceneAsync_Patch
+public static class CutSceneManager_SetupNewCutScene
 {
-    public static bool Prefix(CutSceneManager __instance)
+    public static bool Prefix()
     {
-        if (Menu.ShouldSkipCutscenes)
-        {
-            return false;
-        }
-        return true;
+        return !Menu.ShouldSkipCutscenes;
     }
 }
 
-[HarmonyPatch(typeof(CameraZoom))]
-[HarmonyPatch("Zoom", typeof(float))]
-public static class CameraZoom_Zoom_Patch
+[HarmonyPatch(typeof(CameraZoom), nameof(CameraZoom.Zoom))]
+public static class CameraZoom_Zoom
 {
     public static void Postfix(CameraZoom __instance, float zoomAmount)
     {
