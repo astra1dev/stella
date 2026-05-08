@@ -28,14 +28,14 @@
 
 # 🎮 Game Info
 
-> Star Birds is a relaxing asteroid base-building and resource management game. 
+> Star Birds is a relaxing asteroid base-building and resource management game.
 > Discover and mine countless asteroids, create production networks and guide your colony of spacefaring birds to new interstellar horizons!
 
 - Steam Link: https://store.steampowered.com/app/2719750/Star_Birds/
 - Steam Link (demo): https://store.steampowered.com/app/3576710/Star_Birds_Demo/
 - Save game files are stored in: `%APPDATA%\..\LocalLow\Toukana Interactive\Star Birds Demo\GameFiles\`
 
-This project is (right now) only available for the demo version. The full game is going to release sometime in 2025.
+This project is (right now) only available for the demo version because I don't own the full game.
 
 # 🎉 Features
 - 🎬 Skip all cutscenes immediately
@@ -46,6 +46,7 @@ Planned:
 - Influence the randomness / seed somehow
 - Manage multiple save files / quickly edit progress
 - See redeemable codes
+- Unlock Steam achievements
 
 Feel free to request new features by opening an issue.
 
@@ -86,4 +87,4 @@ The table below lists the most recent stella release for each Star Birds version
 - If you want to add a new feature or edit / improve existing code, fork this repo and create a pull request with your changes.  ([how?](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project))
 
 # ⚠️ Disclaimer
-This project is fan-made and not affiliated with Star Birds, Toukana Interactive, or kurzgesagt - in a nutshell. 
+This project is fan-made and not affiliated with Star Birds, Toukana Interactive, or kurzgesagt - in a nutshell.

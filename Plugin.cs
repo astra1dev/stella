@@ -7,6 +7,7 @@ using UnityEngine;
 namespace stella;
 
 [BepInAutoPlugin]
+[BepInProcess("StarBirds.exe")]
 [BepInProcess("StarBirdsDemo.exe")]
 public partial class Plugin : BaseUnityPlugin
 {
